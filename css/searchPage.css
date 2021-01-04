@@ -1,0 +1,61 @@
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 10pt;
+}
+
+footer a {
+  color: #00264d !important;
+}
+
+#searchPage {
+  width: 600px !important;
+  padding-top: 20%;
+}
+
+#searchResultContainer {
+  padding: 40px 0px 40px 80px;
+}
+
+.login {
+  display: none;
+}
+
+#submit {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+#ResultsCount {
+  padding: 5px 0px 20px 5px;
+  color: gray;
+  font-size: 14px;
+}
+
+.urlSubHeader {
+  color: DarkGreen !important;
+  font-size: 16px;
+  text-decoration: none !important;
+}
+
+#searchResultContainer a {
+  color: #0D4F8B;
+}
+
+.table-responsive {
+  overflow:scroll !important;
+  overflow:auto !important;
+}
+
+.table {
+  margin-bottom: 100px !important;
+} }
+}

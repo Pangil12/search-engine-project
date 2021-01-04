@@ -1,0 +1,79 @@
+.card-img-top {
+    width: 80%;
+    height: 100px;
+    outline: none !important;
+}
+
+.card {
+  cursor: pointer;
+  height: 150px !important;
+  margin: 15px 0px 15px 0px;
+}
+
+/* Hide the divs/tables of `Index a Page` and `Search Queries` on default*/
+#IndexAPage, #SearchQueriesTable, #StatisticsTables {
+  display: none;
+}
+
+.card-text
+{
+    text-decoration: none;
+}
+
+td, th
+{
+    max-width: 190px;
+    max-height: 150px;
+    word-wrap: break-word;
+}
+
+button {
+  padding: 5px 10px 5px 5px !important;
+}
+
+body {
+  min-height: 150vh;
+  position: relative;
+  margin: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 10pt;
+}
+
+footer a {
+  color:#00264d  !important;
+}
+
+#loading {
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   position: fixed;
+   display: block;
+   display: none;
+   opacity: 0.6;
+   background-color: #fff;
+   z-index: 99;
+   text-align: center;
+}
+
+#loading-image {
+  position: absolute;
+  top: -100px;
+  left: 28%;
+  z-index: 100;
+}
+
+.table-container {
+  overflow:hidden;
+    overflow-y: scroll;
+    height: 400px; // change this to desired height
+}
+
+#submitButton {
+  margin-bottom: 100px !important;
+}
